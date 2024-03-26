@@ -469,8 +469,8 @@ class Asn(object):
         :param type: The type of this Asn.  # noqa: E501
         :type: str
         """
-        if type is None:
-            raise ValueError("Invalid value for `type`, must not be `None`")  # noqa: E501
+        # if type is None:
+        #     raise ValueError("Invalid value for `type`, must not be `None`")  # noqa: E501
 
         self._type = type
 
