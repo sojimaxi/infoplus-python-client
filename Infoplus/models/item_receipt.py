@@ -1568,8 +1568,8 @@ class ItemReceipt(object):
         :param vendor_id: The vendor_id of this ItemReceipt.  # noqa: E501
         :type: int
         """
-        if vendor_id is None:
-            raise ValueError("Invalid value for `vendor_id`, must not be `None`")  # noqa: E501
+        # if vendor_id is None:
+        #     raise ValueError("Invalid value for `vendor_id`, must not be `None`")  # noqa: E501
 
         self._vendor_id = vendor_id
 
