@@ -475,8 +475,8 @@ class ItemReceipt(object):
         :param lob_id: The lob_id of this ItemReceipt.  # noqa: E501
         :type: int
         """
-        if lob_id is None:
-            raise ValueError("Invalid value for `lob_id`, must not be `None`")  # noqa: E501
+        # if lob_id is None:
+        #     raise ValueError("Invalid value for `lob_id`, must not be `None`")  # noqa: E501
 
         self._lob_id = lob_id
 
@@ -519,8 +519,8 @@ class ItemReceipt(object):
         :param warehouse_id: The warehouse_id of this ItemReceipt.  # noqa: E501
         :type: int
         """
-        if warehouse_id is None:
-            raise ValueError("Invalid value for `warehouse_id`, must not be `None`")  # noqa: E501
+        # if warehouse_id is None:
+        #     raise ValueError("Invalid value for `warehouse_id`, must not be `None`")  # noqa: E501
 
         self._warehouse_id = warehouse_id
 
@@ -626,8 +626,8 @@ class ItemReceipt(object):
         :param sku: The sku of this ItemReceipt.  # noqa: E501
         :type: str
         """
-        if sku is None:
-            raise ValueError("Invalid value for `sku`, must not be `None`")  # noqa: E501
+        # if sku is None:
+        #     raise ValueError("Invalid value for `sku`, must not be `None`")  # noqa: E501
 
         self._sku = sku
 
@@ -649,8 +649,8 @@ class ItemReceipt(object):
         :param order_quantity: The order_quantity of this ItemReceipt.  # noqa: E501
         :type: int
         """
-        if order_quantity is None:
-            raise ValueError("Invalid value for `order_quantity`, must not be `None`")  # noqa: E501
+        # if order_quantity is None:
+        #     raise ValueError("Invalid value for `order_quantity`, must not be `None`")  # noqa: E501
 
         self._order_quantity = order_quantity
 
@@ -693,8 +693,8 @@ class ItemReceipt(object):
         :param unit_code: The unit_code of this ItemReceipt.  # noqa: E501
         :type: str
         """
-        if unit_code is None:
-            raise ValueError("Invalid value for `unit_code`, must not be `None`")  # noqa: E501
+        # if unit_code is None:
+        #     raise ValueError("Invalid value for `unit_code`, must not be `None`")  # noqa: E501
 
         self._unit_code = unit_code
 
@@ -716,8 +716,8 @@ class ItemReceipt(object):
         :param wrap_code: The wrap_code of this ItemReceipt.  # noqa: E501
         :type: str
         """
-        if wrap_code is None:
-            raise ValueError("Invalid value for `wrap_code`, must not be `None`")  # noqa: E501
+        # if wrap_code is None:
+        #     raise ValueError("Invalid value for `wrap_code`, must not be `None`")  # noqa: E501
 
         self._wrap_code = wrap_code
 
@@ -739,8 +739,8 @@ class ItemReceipt(object):
         :param units_per_wrap: The units_per_wrap of this ItemReceipt.  # noqa: E501
         :type: int
         """
-        if units_per_wrap is None:
-            raise ValueError("Invalid value for `units_per_wrap`, must not be `None`")  # noqa: E501
+        # if units_per_wrap is None:
+        #     raise ValueError("Invalid value for `units_per_wrap`, must not be `None`")  # noqa: E501
 
         self._units_per_wrap = units_per_wrap
 
@@ -846,8 +846,8 @@ class ItemReceipt(object):
         :param charge_freight: The charge_freight of this ItemReceipt.  # noqa: E501
         :type: str
         """
-        if charge_freight is None:
-            raise ValueError("Invalid value for `charge_freight`, must not be `None`")  # noqa: E501
+        # if charge_freight is None:
+        #     raise ValueError("Invalid value for `charge_freight`, must not be `None`")  # noqa: E501
 
         self._charge_freight = charge_freight
 
@@ -890,8 +890,8 @@ class ItemReceipt(object):
         :param dist_date: The dist_date of this ItemReceipt.  # noqa: E501
         :type: datetime
         """
-        if dist_date is None:
-            raise ValueError("Invalid value for `dist_date`, must not be `None`")  # noqa: E501
+        # if dist_date is None:
+        #     raise ValueError("Invalid value for `dist_date`, must not be `None`")  # noqa: E501
 
         self._dist_date = dist_date
 
@@ -1081,8 +1081,8 @@ class ItemReceipt(object):
         :param max_overs: The max_overs of this ItemReceipt.  # noqa: E501
         :type: int
         """
-        if max_overs is None:
-            raise ValueError("Invalid value for `max_overs`, must not be `None`")  # noqa: E501
+        # if max_overs is None:
+        #     raise ValueError("Invalid value for `max_overs`, must not be `None`")  # noqa: E501
 
         self._max_overs = max_overs
 
@@ -1104,8 +1104,8 @@ class ItemReceipt(object):
         :param max_unders: The max_unders of this ItemReceipt.  # noqa: E501
         :type: int
         """
-        if max_unders is None:
-            raise ValueError("Invalid value for `max_unders`, must not be `None`")  # noqa: E501
+        # if max_unders is None:
+        #     raise ValueError("Invalid value for `max_unders`, must not be `None`")  # noqa: E501
 
         self._max_unders = max_unders
 
