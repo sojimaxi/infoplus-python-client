@@ -190,8 +190,8 @@ class InventoryDetail(object):
         :param warehouse_location_id: The warehouse_location_id of this InventoryDetail.  # noqa: E501
         :type: int
         """
-        if warehouse_location_id is None:
-            raise ValueError("Invalid value for `warehouse_location_id`, must not be `None`")  # noqa: E501
+        # if warehouse_location_id is None:
+        #     raise ValueError("Invalid value for `warehouse_location_id`, must not be `None`")  # noqa: E501
 
         self._warehouse_location_id = warehouse_location_id
 
