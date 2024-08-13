@@ -423,8 +423,8 @@ class Asn(object):
         :param warehouse_id: The warehouse_id of this Asn.  # noqa: E501
         :type: int
         """
-        if warehouse_id is None:
-            raise ValueError("Invalid value for `warehouse_id`, must not be `None`")  # noqa: E501
+        # if warehouse_id is None:
+        #     raise ValueError("Invalid value for `warehouse_id`, must not be `None`")  # noqa: E501
 
         self._warehouse_id = warehouse_id
 
